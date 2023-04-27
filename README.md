@@ -48,8 +48,13 @@ We develop the design of the ADC based on the following considerations regarding
 7) Feedthrough  
 
 We develop the design of the ADC based on the following considerations regarding the quantization process of the SAR:
-1) 
-
+1) Dynamic comparator since power consumption only occurs during the rising and falling edges.
+2) Kickback noise in the dynamic comparator.
+3) Static offset in the dynamic comparator.
+4) Thermal noise.
+5) Trade-off between thermal noise and power.
+6) Metastability for small differential input voltages.
+7) Conversion speed of the asynchronous operation is higher than the synchronous one.
 
 The proposed ADC-SAR design is presented in the following figure.
 ![Docker command](/Images/propuesta.png)
