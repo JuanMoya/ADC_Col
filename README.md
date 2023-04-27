@@ -112,6 +112,7 @@ Follows the figure associated with the SAR register.
 ![Docker command](/Images/reg_SAR.png)
 
 Follows the figure associated with the asynchronous SAR logic.
+
 ![Docker command](/Images/async_logic.png)
 
 
