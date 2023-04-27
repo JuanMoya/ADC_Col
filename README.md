@@ -111,6 +111,10 @@ Follows the figure associated with the SAR register.
 
 ![Docker command](/Images/reg_SAR.png)
 
+Follows the figure associated with the asynchronous SAR logic.
+![Docker command](/Images/async_logic.png)
+
+
 ## References
 
 [1] **Reyes Gonzalez, D. A. Projeto de um conversor analógico-digital para um receptor UWB aplicado na detecção de câncer de mama em tecnologia CMOS (Master Thesis, Universidade de São Paulo).**
