@@ -68,7 +68,12 @@ The ADC-SAR proposed is composed of the following sub-circuits:
 5) SAR Logic
 6) Asynchronous operation to avoid the use of a high frequency clock.
 
+We use the capacitor merged circuit for the sampling switches [2] --> The 11-bit ADC uses a 10-bit DAC.
+Follows a 3-bit schematic using the merged capacitors.
+![Docker command](/Images/merged_cap.png)
+
 
 ## References
 
 [1] **Reyes Gonzalez, D. A. Projeto de um conversor analógico-digital para um receptor UWB aplicado na detecção de câncer de mama em tecnologia CMOS (Master Thesis, Universidade de São Paulo).**
+[2] **Hariprasath, V., Guerber, J., Lee, S. H., & Moon, U. K. (2010). Merged capacitor switching based SAR ADC with highest switching energy-efficiency. Electronics letters, 46(9), 620.**
