@@ -16,3 +16,10 @@ Follows a description of the main specifications defined for the ADC-SAR
 | Sampling rate  | fs  | ≥ 1.5MS/s | |
 | Effective number of bits | ≥ 9 | Measured near Nyquist |
 | Input Capacitance | Cin | ≤ 5pF | |
+
+We know that ENOB is defined by:
+
+ENOB = (SNDR- 1.76dB)/6.02
+
+Then, SNDR --> 
+
