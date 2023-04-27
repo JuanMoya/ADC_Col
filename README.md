@@ -97,6 +97,19 @@ Follows the figure associated with the sub-circuit proposal.
 
 ![Docker command](/Images/bridge_capacitor_dac.png)
 
+### Dynamic Comparator circuit
+Follows the figure associated with the sub-circuit proposal.
+
+![Docker command](/Images/dynamic_comparator.png)
+
+### Asyncronous SAR logic
+Follows the figure associated with the main control that implements the SAR logic.
+
+![Docker command](/Images/async_control.png)
+
+Follows the figure associated with the SAR register.
+
+![Docker command](/Images/reg_SAR.png)
 
 ## References
 
