@@ -81,6 +81,23 @@ To solve the problem regarding injection charge and finite resistance, we use th
 
 ![Docker command](/Images/bootstrap.png)
 
+We consider the minimum SNDR for track and hold, to define the dimensions of the sampling switches.
+
+SNDR_T_&_H = 6.02 x (N+2) + 1.76dB.
+
+For the 11-bit ADC, we have an SNDR_T_&_H = 80.02 dB, therefore the ENOB must be at least 13 bits.
+
+### Diferential track & hold circuit
+Follows the figure associated with the sub-circuit proposal.
+
+![Docker command](/Images/track_hold.png)
+
+### Diferential track & hold circuit
+Follows the figure associated with the sub-circuit proposal.
+
+![Docker command](/Images/bridge_capacitor_dac.png)
+
+
 ## References
 
 [1] **Reyes Gonzalez, D. A. Projeto de um conversor analógico-digital para um receptor UWB aplicado na detecção de câncer de mama em tecnologia CMOS (Master Thesis, Universidade de São Paulo).**
