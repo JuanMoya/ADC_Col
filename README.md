@@ -36,9 +36,34 @@ The next table presents the relation between ENOB and SNDR based on the equation
 
 Based on the information presented above and the specification of the contest, we must have SNDR ≥ 55.94
 
-We base our project on the following Master Degree Dissertation:
+We base our project on the following Master Degree Dissertation [1]:
 
-**Reyes Gonzalez, D. A. Projeto de um conversor analógico-digital para um receptor UWB aplicado na detecção de câncer de mama em tecnologia CMOS (Master Thesis, Universidade de São Paulo).**
+We develop the design of the ADC based on the following considerations regarding the tracking process of the SAR:
+1) Finite resistance of the switch
+2) Nyquist frequency
+3) Switch stabilization time
+4) Thermal Noise
+5) Charge injection --> Charge is stored in the channel when the switch is in strong inversion.
+6) Clock Feedthrough
+7) Feedthrough  
+
+We develop the design of the ADC based on the following considerations regarding the quantization process of the SAR:
+1) 
+
 
 The proposed ADC-SAR design is presented in the following figure.
 ![Docker command](/Images/propuesta.png)
+
+The ADC-SAR proposed is composed of the following sub-circuits:
+
+1) Differential Capacitive DAC
+2) Switches for sampling
+3) Bridge Capacitor
+4) Dynamic Comparator
+5) SAR Logic
+6) Asynchronous operation to avoid the use of a high frequency clock.
+
+
+## References
+
+[1] **Reyes Gonzalez, D. A. Projeto de um conversor analógico-digital para um receptor UWB aplicado na detecção de câncer de mama em tecnologia CMOS (Master Thesis, Universidade de São Paulo).**
