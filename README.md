@@ -2,13 +2,13 @@
 
 ![Docker command](/Images/pico_contest.png)
 
-Follows the proposal of and ADC SAR for the SSCS "PICO" Open-Source Chipathon developed by:
+Follows the proposal of and  11-bits SAR ADC for the SSCS "PICO" Open-Source Chipathon developed by:
 - Juan Sebastián Moya Baquero
-- David Alejandro Reyes
-- Juan Andrés Loopez Cubides
+- David Alejandro Reyes Gonzalez
+- Juan Andrés Lopez Cubides
 - Fredy Enrique Segura Quijano
 
-Follows a description of the main specifications defined for the ADC-SAR
+Follows a description of the main specifications defined for the SAR-ADC
 
 ##### ADCs Specifications
 | **Specification**  | **Symbol** | **Baseline requirement** | **Comment** | 
@@ -36,5 +36,9 @@ The next table presents the relation between ENOB and SNDR based on the equation
 
 Based on the information presented above and the specification of the contest, we must have SNDR ≥ 55.94
 
+We base our project on the following Master Degree Dissertation:
 
+**Reyes Gonzalez, D. A. Projeto de um conversor analógico-digital para um receptor UWB aplicado na detecção de câncer de mama em tecnologia CMOS (Master Thesis, Universidade de São Paulo).**
 
+The proposed ADC-SAR design is presented in the following figure.
+![Docker command](/Images/propuesta.png)
